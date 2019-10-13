@@ -58,6 +58,7 @@ class Ui_generateWindow(object):
         self.filenameEntry.setFont(font)
         self.filenameEntry.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.filenameEntry.setObjectName("filenameEntry")
+        self.filenameEntry.setReadOnly(True)
         self.saveBtn = QtWidgets.QPushButton(self.centralwidget)
         self.saveBtn.setGeometry(QtCore.QRect(260, 540, 91, 41))
         font = QtGui.QFont()

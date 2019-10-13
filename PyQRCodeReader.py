@@ -34,6 +34,7 @@ class Ui_readerWindow(object):
         self.filenameEntry.setFont(font)
         self.filenameEntry.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.filenameEntry.setObjectName("filenameEntry")
+        self.filenameEntry.setReadOnly(True)
         self.readBtn = QtWidgets.QPushButton(self.centralwidget)
         self.readBtn.setGeometry(QtCore.QRect(260, 160, 111, 31))
         font = QtGui.QFont()
